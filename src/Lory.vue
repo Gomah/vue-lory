@@ -17,7 +17,11 @@ export default {
   props: {
     options: {
       type: Object,
-      default: () => ({})
+      default: () => {
+        return {
+          offsetleft: 0
+        }
+      }
     }
   },
 
