@@ -1,4 +1,11 @@
-exports.Item = require('./Item').default
-exports.Lory = require('./Lory').default
-exports.Prev = require('./Prev').default
-exports.Next = require('./Next').default
+import Lory from './Lory'
+import Item from './Item'
+import Next from './Next'
+import Prev from './Prev'
+
+export {
+    Lory,
+    Item,
+    Next,
+    Prev
+}
