@@ -1,8 +1,8 @@
 {
-  "name": "vue-lory",
-  "version": "0.0.5",
+  "name": "@gomah/vue-lory",
+  "version": "0.0.6",
   "description": "Vue Slider Component is based on lory",
-  "repository": "vue-bulma/lory",
+  "repository": "https://github.com/Gomah/vue-lory",
   "license": "MIT",
   "author": {
     "name": "Fangdun Cai",
@@ -20,6 +20,6 @@
     "vue": ">=2"
   },
   "dependencies": {
-    "lory.js": "git+ssh://git@github.com:sebs/lory-1.git"
+    "lory.js": "^2.2.1"
   }
 }
