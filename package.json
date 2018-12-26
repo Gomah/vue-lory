@@ -20,6 +20,6 @@
     "vue": ">=2"
   },
   "dependencies": {
-    "lory.js": "^2.2.1"
+    "lory.js": "git+ssh://git@github.com:sebs/lory-1.git"
   }
 }

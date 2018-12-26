@@ -15,7 +15,11 @@ export default {
   props: {
     options: {
       type: Object,
-      default: () => ({})
+      default: () => {
+        return {
+          offsetleft: 0
+        }
+      }
     }
   },
 
@@ -31,7 +35,9 @@ export default {
   },
 
   beforeDestroy () {
-    this.slider.destroy()
+    if (this.slider && this.slider.destroy) {
+      this.slider.destroy()
+    }
   }
 
 }
