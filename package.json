@@ -1,6 +1,6 @@
 {
   "name": "@gomah/vue-lory",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Vue Slider Component is based on lory",
   "repository": "https://github.com/Gomah/vue-lory",
   "license": "MIT",
@@ -20,6 +20,6 @@
     "vue": ">=2"
   },
   "dependencies": {
-    "lory.js": "^2.2.1"
+    "lory.js": "^2.5.2"
   }
 }
